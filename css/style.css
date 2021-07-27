@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+
+.initial{
+    background-color: #1822B7;
+    height: 100vh;
+    color:white;
+}
+.initial__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.initial__img1{
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.initial__img2{
+    margin: auto;
+    right: 0;
+    position: absolute;
+    top:50%;
+}
+.initial__info{
+    margin: 150px 20px 0 20px;
+}
+.initial__text{
+    font-family: "RF Dewi", serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 18px;
+}
+.initial__heading{
+    font-family: "RF Dewi", serif;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 900;
+    margin-top: 0;
+}
+ul{
+    list-style-type: none
+}
+.initial__implication{
+    padding-top: 4px;
+    font-family: "RF Dewi", serif;
+    font-weight: 400;
+}
+.initial__definitions{
+    color: rgba(255, 255, 255, .7);
+}
+.initial__term{
+    display: block;
+    margin-top:24px ;
+    color: white;
+}
+
+.second{
+    background: white;
+    margin: 20px;
+}
+.second__heading{
+    background: url('../img/Frame\ 20681.svg') left 0 bottom 0 / 67px no-repeat;
+    font-family: "RF Dewi";
+    font-weight: 900;
+    padding-bottom: 30px;
+    
+}
+.second__description{
+    font-family: "RF Dewi", serif;
+    font-weight: 400;
+}
+
+.mission{
+    margin: 40px 30px 30px 40px;
+    border: 1px solid #E3A655;
+    border-radius: 14px;
+    padding: 20px;
+    
+}
+.mission__project{
+    font-family: "RF Dewi";
+    font-weight: 900;
+}
+.mission__text{
+    font-family: "RF Dewi", serif;
+    font-weight: 400;
+    
+}
+.direction{
+    background: #F3F4FB;
+}
+.direction__heading{
+    font-family: "RF Dewi";
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Bold'), local('RF-Dewi-Bold'),
+        url('../fonts/RFDewi-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Expanded Black'), local('RF-Dewi-Expanded-Black'),
+        url('../fonts/RFDewiExpanded-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Regular'), local('RF-Dewi-Regular'),
+        url('../fonts/RFDewi-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
